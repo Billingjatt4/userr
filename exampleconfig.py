@@ -20,7 +20,7 @@ class Development(Config):
     # External plugins repo
     EXTERNAL_REPO = True
     EXTERNAL_REPOBRANCH = "main"
-    UPSTREAM_REPO = "pro"
+    UPSTREAM_REPO = "master"
     VCMODE = False
     # Your City's TimeZone
     TZ = "Asia/Kolkata"
