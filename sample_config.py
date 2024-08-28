@@ -169,7 +169,7 @@ class Config(object):
     EXTERNAL_REPO = os.environ.get("EXTERNAL_REPO", None)
     if bool(EXTERNAL_REPO and (EXTERNAL_REPO.lower() != "false")):
         if not url(EXTERNAL_REPO):
-            EXTERNAL_REPO = "https://github.com/LEGEND-AI/PLUGINS"
+            EXTERNAL_REPO = "https://github.com/badmunda011/PLUGINS"
     else:
         EXTERNAL_REPO = None
     EXTERNAL_REPOBRANCH = os.environ.get("EXTERNAL_REPOBRANCH", "main")
