@@ -321,7 +321,11 @@ async def inline_handler(event):  # sourcery no-metrics
                 text=f"**⚜ Legendary Af LegendBot ⚜**",
                 buttons=[
                     [Button.url("♥️ Tutorial ♥", "https://youtu.be/CH_KO1wim2o")],
-                    [Button.url("📍 𝚁𝚎𝚙𝚘 📍", "https://github.com/LEGEND-AI/LegendBot")],
+                    [
+                        Button.url(
+                            "📍 𝚁𝚎𝚙𝚘 📍", "https://github.com/LEGEND-AI/LegendBot"
+                        )
+                    ],
                     [
                         Button.url(
                             "💞 Deploy 💞",
@@ -635,7 +639,9 @@ async def inline_handler(event):  # sourcery no-metrics
             await event.answer([result] if result else None)
         elif string == "pmpermit":
             buttons = [
-                Button.inline(text="👨‍💻 Open PM Menu 💝", data="show_pmpermit_options"),
+                Button.inline(
+                    text="👨‍💻 Open PM Menu 💝", data="show_pmpermit_options"
+                ),
             ]
             PM_IMG = (
                 gvarstatus("PM_IMG")

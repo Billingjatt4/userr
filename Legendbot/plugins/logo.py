@@ -505,7 +505,9 @@ async def legend(event):
                 os.remove("./temp/logo.ttf")
             delgvar(var)
             await eod(
-                event, f"📑 Value of **{var}** is now deleted & set to default.", time=60
+                event,
+                f"📑 Value of **{var}** is now deleted & set to default.",
+                time=60,
             )
     elif not input_str and cmd == "r":
         delgvar("LOGO_BACKGROUND")

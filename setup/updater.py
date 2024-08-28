@@ -1,8 +1,9 @@
 import asyncio
 import difflib
 import shlex
-from typing import Tuple
 import sys
+from typing import Tuple
+
 
 # if any requirements are cahnged then install that requirement
 async def lines_differnce(file1, file2):
@@ -37,7 +38,7 @@ async def runcmd(cmd: str) -> Tuple[str, str, int, int]:
     )
 
 
-async def update_requirements(main , test):
+async def update_requirements(main, test):
     a, r = await lines_differnce(main, test)
     try:
         for i in a:
@@ -47,4 +48,4 @@ async def update_requirements(main , test):
         print(f"Error while installing requirments {str(e)}")
 
 
-asyncio.run(update_requirements(sys.argv[1] , sys.argv[2]))
+asyncio.run(update_requirements(sys.argv[1], sys.argv[2]))

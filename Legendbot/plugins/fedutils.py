@@ -470,9 +470,11 @@ async def fetch_fedinfo(event):
             response = await conv.get_response()
             await eor(
                 legendevent,
-                f"**Fedid:** ```{input_str}```\n\n{response.text}"
-                if input_str
-                else response.text,
+                (
+                    f"**Fedid:** ```{input_str}```\n\n{response.text}"
+                    if input_str
+                    else response.text
+                ),
             )
         except Exception as e:
             await eod(legendevent, f"**Error while fecthing fedinfo:**\n__{e}__", 10)

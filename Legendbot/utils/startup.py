@@ -194,9 +194,9 @@ async def load_plugins(folder, extfolder=None):
 
 async def hekp():
     try:
-        os.environ[
-            "LEGEND_STRING"
-        ] = "String Is A Sensitive Data \nSo Its Protected By LegendBot"
+        os.environ["LEGEND_STRING"] = (
+            "String Is A Sensitive Data \nSo Its Protected By LegendBot"
+        )
     except Exception as e:
         print(str(e))
     try:
