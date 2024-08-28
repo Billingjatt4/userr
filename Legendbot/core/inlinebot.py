@@ -57,7 +57,7 @@ async def on_plug_in_callback_query_handler(event):
     buttons = [
         (
             Button.inline(f"Admin ({len(GRP_INFO['admin'])})", data="admin_menu"),
-            Button.inline(f"Bot ({len(GRP_INFO['bot'])})", data="bot_menu"),
+            Button.inline(f"Bot ({len(GRP_INFO['boot'])})", data="bot_menu"),
         ),
         (
             Button.inline(f"Fun ({len(GRP_INFO['fun'])})", data="fun_menu"),
