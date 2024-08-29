@@ -18,7 +18,7 @@ class Development(Config):
     # command hanler for sudo
     SUDO_HANDLER = "."
     # External plugins repo
-    EXTERNAL_REPO = Fasle
+    EXTERNAL_REPO = False
     EXTERNAL_REPOBRANCH = "main"
     UPSTREAM_REPO = "master"
     VCMODE = False
