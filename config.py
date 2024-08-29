@@ -12,13 +12,13 @@ class Development(Config):
     # After cloning the repo and installing requirements do python3 telesetup.py an fill th this
     LEGEND_STRING = "1BJWap1wBu2tycBO1CQppq5oyMqieh5Efm559SH8i7Djk9B4w23szf8cvxDlinmOVGcOkqyiCcNdhZ9FWijyNKry9OuCbrvRIJ8P-SScYBUezPgZlV6Tr1CLlPzTpg8jInOGLTFDVJosSuEeSfVcQv6sWG1WAj2WYMKfpoM9RTS3Hltx3n4o5--3apxyK5pp5N_tsY8x_0WedHx_gLChKg22cqTXBuObduFLmnyQ-OARA2IzY8tLS6e1a2jegl_JPolvP7ncw60tZJ5DW7wq9D0HmKgJAuT0fNFSv-0EJfQ-GSb7tR0-f5GRud1uy2OHHt-9hqUDDJeDyUOAIHkf8WcKk6iV4DkE="
     # create a new bot in @botfather and fill the following vales with bottoken
-    BOT_TOKEN = "7084619974:AAGo1Yi73RCEZWRtcDOFMQqEE5S85kh5CW0"
+    BOT_TOKEN = "7052737706:AAGqYPdQxxH7576wOTkkoXOAgdXe6RsUr2Y"
     # command handler
     HANDLER = "."
     # command hanler for sudo
     SUDO_HANDLER = "."
     # External plugins repo
-    EXTERNAL_REPO = True
+    EXTERNAL_REPO = Fasle
     EXTERNAL_REPOBRANCH = "main"
     UPSTREAM_REPO = "master"
     VCMODE = False
