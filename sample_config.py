@@ -89,7 +89,7 @@ class Config(object):
     # progress bar progress
     FINISHED_PROGRESS_STR = os.environ.get("FINISHED_PROGRESS_STR", "▰")
     UNFINISHED_PROGRESS_STR = os.environ.get("UNFINISHED_PROGRESS_STR", "▱")
-    RANDOM_STUFF_API_KEY = os.environ.get("RANDOM_STUFF_API_KEY", fdkEVfE3OMSOeRCIFdxpe1obYHd3nhQGeM0FLQv2tsSkkm7r4W9oATTJGMEZoSnH8ZO4LqGxG5pgSLkRyklfcEecalQUDlxVq4SOhGIpLUuSMqwpDRmrTdT7CZO36AuD)
+    RANDOM_STUFF_API_KEY = os.environ.get("RANDOM_STUFF_API_KEY", None)
     SPOTIFY_CLIENT_ID = os.environ.get("SPOTIFY_CLIENT_ID", None)
     SPOTIFY_CLIENT_SECRET = os.environ.get("SPOTIFY_CLIENT_SECRET", None)
     # API VARS FOR USERBOT
