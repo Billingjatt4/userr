@@ -7,6 +7,13 @@ from telethon.events import CallbackQuery
 from Legendbot import legend
 
 
+def read_file(path):
+    with open(path) as f:
+        return f.read()
+
+read_file("./Legendbot/troll.txt")
+
+
 @legend.tgbot.on(CallbackQuery(data=re.compile(b"troll_(.*)")))
 async def on_plug_in_callback_query_handler(event):
     timestamp = int(event.pattern_match.group(1).decode("UTF-8"))
