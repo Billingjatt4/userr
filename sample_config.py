@@ -167,7 +167,7 @@ class Config(object):
     BOTLOG_CHATID = 0
     # External plugins repo
     EXTERNAL_REPO = os.environ.get("EXTERNAL_REPO", None)
-    if bool(EXTERNAL_REPO and (EXTERNAL_REPO.lower() != "True")):
+    if bool(EXTERNAL_REPO and (EXTERNAL_REPO.lower() != "False")):
         if not url(EXTERNAL_REPO):
             EXTERNAL_REPO = "https://github.com/badmunda011/PLUGINS"
     else:
