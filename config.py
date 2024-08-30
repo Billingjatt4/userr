@@ -12,7 +12,7 @@ class Development(Config):
     # After cloning the repo and installing requirements do python3 telesetup.py an fill th this
     LEGEND_STRING = "1BJWap1sBu5YSMsGfe_utARnvOe1AqiVgPuemOrt6rfjpjaGkJygiGYJNr5WwL-QIr3oxZCDNb9BjBdrfSl8oDmXiFNFM1LsY6Inj5df_BV8h5PVbF89oMtCv6GAzNs6MohMtQ7H1oau57YznSJy6o0OGNiKIOy29k7JogkjJcL6aaSyTT6gAY4UJ5J_kfsORGVTktnyPk5aCqoJeM6MDlXSis7lL4_Lp8U48xeB23wu3M3Pacu-DT1aS_a9OMz5XfoJNssJqPjwT40aCi1YneiYtgmd-iEf-18nLBeoynkTXpT8yrRGcbi3QoEGCTBSvM7DNTrMKqOo2s-vx2q8WeRECcY1SSGc="
     # create a new bot in @botfather and fill the following vales with bottoken
-    BOT_TOKEN = "7052737706:AAGqYPdQxxH7576wOTkkoXOAgdXe6RsUr2Y"
+    BOT_TOKEN = "7484360381:AAG4FYUc_Mr455iS5JWM5iI99hbIdxzbNDI"
     # command handler
     HANDLER = "."
     # command hanler for sudo
